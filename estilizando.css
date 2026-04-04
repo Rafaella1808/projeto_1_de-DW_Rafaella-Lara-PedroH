@@ -1,0 +1,8 @@
+#grupo1 {
+    border-style: solid;
+    border-color: green;
+}
+body {
+    background-image: url(florestaimage.jpg);
+    background-size: cover;
+}
