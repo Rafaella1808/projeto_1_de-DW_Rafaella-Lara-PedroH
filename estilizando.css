@@ -3,6 +3,23 @@
     border-color: green;
 }
 body {
-    background-image: url(florestaimage.jpg);
+    background-image: url(campoimage\ \(1\).jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed ;
+font-family: "Noto Sans", sans-serif;
+}
+.titulos {
+    color: white;
+}
+#texto {
+  color: white;
+  -webkit-text-stroke-width: 0.1px;
+-webkit-text-stroke-color: black;
+}
+.textos {
+      color: white;
+  -webkit-text-stroke-width: 0.55px;
+-webkit-text-stroke-color: black;
 }
