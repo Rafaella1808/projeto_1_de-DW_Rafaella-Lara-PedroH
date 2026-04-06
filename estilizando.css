@@ -1,10 +1,10 @@
 body {
   font-family:Arial, Helvetica, sans-serif;
-  background-color: #4a76d4;
+  background-color: #e8edf9;
 }
 .titulos {
-    color: #303fb3;
-    -webkit-text-stroke: 0.5px white ;
+    color: #000000;
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0) ;
     margin-left: 200px;
     font-size: 35px;
 }
@@ -52,6 +52,9 @@ display: block;
     margin-left: 200px;
     margin-right: 200px;
 }
+tr:hover {
+    background-color: #8ca8e4;
+}
 
 b {
   font-weight: bold;
@@ -59,19 +62,19 @@ b {
 
 .topicos {
     margin-left: 200px;
-    color: white;
+    color: #8ca8e4;
 }
-topicos:hover {
-    color: black;
+.topicos :hover {
+    color: rgb(255, 255, 255);
 }
-topicos:active {
-    color: cornflowerblue;
+.topicos:active {
+    color:rgb(0, 0, 0);
 }
 
 #comeco {
     margin-left: 200px;
     font-size: 25px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
@@ -81,4 +84,31 @@ topicos:active {
 
 a:hover {
     color: black;
+}
+
+#grupo1 {
+    border-style: solid;
+    border-width: medium;
+    border-color: #8ca8e4;
+    background-color:#8ca8e4 ;
+}
+
+#partecima1 {
+     border-style: solid;
+    border-width: medium;
+    border-color: #8ca8e4;
+    background-color:#8ca8e4 ;
+}
+
+#titulo1 {
+    color: rgb(43, 65, 171)
+}
+ #titulo2 {
+     color: rgb(43, 65, 171) 
+}
+#titulo3 {
+     color: rgb(43, 65, 171)
+}
+#titulo4 {
+     color: rgb(43, 65, 171)
 }
